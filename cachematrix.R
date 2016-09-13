@@ -34,5 +34,5 @@ m <- x$getinverse()
         data <- x$get()
         m <- inverse(data, ...)
         x$setinverse(m)
-        m)
+        m
 }
